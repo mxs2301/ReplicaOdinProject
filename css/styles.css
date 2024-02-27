@@ -1,0 +1,18 @@
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+header,
+footer {
+  background: #1F2937;
+  color: white;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
