@@ -2,11 +2,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  background: #1F2937;
 }
 
 header,
 footer {
-  background: #1F2937;
   color: white;
 }
 
@@ -81,6 +81,10 @@ footer {
 }
 
 /* Content */
+
+.middle{
+  background: white;
+}
 
 footer {
   display: flex;
