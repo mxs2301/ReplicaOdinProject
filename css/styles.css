@@ -82,10 +82,30 @@ footer {
 
 /* Content */
 
+
+/* General flex setup*/
 .middle{
   background: white;
+  display: flex;
+  gap: 30px;
+  flex-flow: column;
 }
 
+.middle.information,
+.middle.quote,
+.middle.bait
+{
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Random info and boxes */
+.middle.boxes{
+  display: flex;
+  flex-flow: row;
+}
 footer {
   display: flex;
   justify-content: center;
