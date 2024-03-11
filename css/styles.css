@@ -131,6 +131,14 @@ footer {
 
 }
 
+/* Middle quote */
+
+.middle.quote{
+  background: #E5E7EB;
+  font-size: 36px;
+  padding: 10% 10%;
+}
+
 footer {
   display: flex;
   justify-content: center;
