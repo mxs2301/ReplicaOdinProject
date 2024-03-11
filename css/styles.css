@@ -12,7 +12,7 @@ footer {
 
 /* Uggly stuff in the header */
 
-.header.box{
+.header.box {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -27,7 +27,8 @@ footer {
   gap: 10%;
 }
 
-
+.header.content{
+}
 
 
 .header.logo {
@@ -37,8 +38,12 @@ footer {
 
 
 .header.description {
-  padding: 0 10% 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
   display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -50,23 +55,23 @@ footer {
   color: #E5E7EB;
 }
 
-.header.texts{
+.header.texts {
   display: inline-flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.header.primary.text{
+.header.primary.text {
   font-size: 24px;
   flex-shrink: 0;
 }
 
-.header.secondary.text{
+.header.secondary.text {
   size: 16px;
   flex-shrink: 0;
 }
 
-.sign.up.button{
+.sign.up.button {
   background: #3882F6;
   color: white;
   border-style: none;
@@ -84,7 +89,7 @@ footer {
 
 
 /* General flex setup*/
-.middle{
+.middle {
   background: white;
   display: flex;
   gap: 30px;
@@ -93,19 +98,40 @@ footer {
 
 .middle.information,
 .middle.quote,
-.middle.bait
-{
+.middle.bait {
   display: flex;
   flex-flow: row;
   align-content: center;
   justify-content: center;
 }
 
+
+
 /* Random info and boxes */
-.middle.boxes{
+.middle.headline{
+  padding-left: 50%;
+  padding-right: 50%
+}
+
+.middle.boxes {
   display: flex;
   flex-flow: row;
 }
+
+.middle.boxUnit{
+  padding: 15px 15px 15px 15px;
+}
+
+.middle.box {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #3882F6;
+  padding: 30% 30% 30% 30%;
+  display: flex;
+  flex-flow: row;
+
+}
+
 footer {
   display: flex;
   justify-content: center;
